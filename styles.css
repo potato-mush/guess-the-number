@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://wallpaperaccess.com/full/8351209.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-family: "VT323", monospace;
+}
+
+.container {
+  background: rgb(141, 255, 255);
+  width: 500px;
+  height: 700px;
+  opacity: 0.85;
+  filter: blur(1px);
+  border-radius: 20px;
+}
+
+.background {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  z-index: 999;
+  border-radius: 20px;
+  border: 4px solid aqua;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem aqua,
+  0 0 0.8rem aqua, 0 0 2rem aqua, inset 0 0 1rem aqua;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 3px 5px #000;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: #fff;
+  text-shadow: 1px 5px #000;
+}
+
+p {
+  margin: 0 auto;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+#outputText {
+  font-size: 2rem;
+}
+
+.footer {
+  font-size: 1rem;
+}
+
+button {
+  width: 110px;
+  height: 60px;
+  font-size: 1.2rem;
+  color: #fff;
+  background: rgb(255, 188, 73);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 12px rgba(255, 150, 0, 1);
+  font-weight: bold;
+  font-family: "VT323", monospace;
+}
+
+button:active {
+  transform: translateY(9px);
+  background: rgb(255, 170, 73);
+  box-shadow: 0px 3px rgba(255, 150, 0, 1);
+}
+
+input {
+  height: 60px;
+  width: 200px;
+  margin: auto;
+  margin-top: 15px;
+  background: rgb(170, 255, 43);
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: inset 0 0 20px #777777;
+  font-family: "VT323", monospace;
+}
+
+.buttonContainer {
+  margin: 0 auto;
+  width: 220px;
+  height: 250px;
+  display: block;
+  align-items: center;
+}
+
+.buttonContainer button {
+  flex: 1;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
